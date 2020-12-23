@@ -1,8 +1,8 @@
-# Expense Reimbursement System (ERS) - Java Full Stack 
+## Expense Reimbursement System (ERS) - Java Full Stack 
 
 The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.
 
-## Roles / Responsibilities
+### Roles / Responsibilities
 
 - Created tables using PostgreSQL database
 - Implemented Servlets to perform all user stories with Java
@@ -13,6 +13,6 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 - Created GET requests displaying results, and user information from the database Implemented a login/logout system
 - Employed Log4j for logging and JUnit for unit testing 
 
-## Environment / Technologies
+### Environment / Technologies
 
 Java, JavaScript, HTML, CSS, JDBC, Spring, Angular, Hibernate
