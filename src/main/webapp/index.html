@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>ERS - index.html</title>
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+	crossorigin="anonymous">
+<style>
+.row.content {
+	height: 1500px
+}
+
+.jumbotron .h1, .jumbotron h1 {
+	font-size: 46px;
+	padding-top: 0;
+	padding-bottom: 0x;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body {
+	background-color: #D3E0EE;
+}
+
+footer {
+	background-color: #555;
+	color: white;
+	padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+	.sidenav {
+		height: auto;
+		padding: 15px;
+	}
+	.row.content {
+		height: auto;
+	}
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+</style>
+</head>
+</head>
+
+<body>
+	<center>
+		<section id="main-section">
+			<br> <br> <br> <br><br> <br> <br> <br>
+			<header id="head-container">
+
+				<h1>Welcome to Expense Reimbursement System (ERS)</h1>
+				<h2>Please Login</h2>
+			</header>
+			<form name="loginForm" onSubmit="sendLogin(event.preventDefault())">
+				<input id="username" type="text" name="username"
+					placeholder="Enter username here"> <input id="password"
+					type="password" name="password" placeholder="Enter password here">
+				<br> <br>
+				<button class="btn btn-primary" id="post-req" type="submit">Submit</button>
+				<script src="scripts/script.js"></script>
+			</form>
+		</section>
+		<p id="displayer" class="hide"></p>
+		<div id="loader" class="hide"></div>
+	</center>
+</body>
+
+</html>

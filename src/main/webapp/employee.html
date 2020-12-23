@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ERS - employee.html</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+	crossorigin="anonymous">
+
+</style>
+</head>
+
+<style>
+.content {
+	max-width: 700px;
+	margin: auto;
+}
+</style>
+
+<body style="background-color: rgba(157, 188, 218, 0.445);">
+	<div class="content">
+		<h2>Employee Portal</h2>
+		<br> <br> <br> <br> <br>
+		<h3 class="cl">Reimbursement Tickets</h3>
+		<br>
+		<div class="row1" id="table-row">
+			<table class="table-hover table-bordered" id="reimtable">
+				<thead>
+					<tr>
+						<th>Reimbursement ID</th>
+						<th>Amount</th>
+						<th>Submitted</th>
+						<th>Resolved</th>
+						<th>Description</th>
+						<th>Author</th>
+						<th>Status</th>
+						<th>Type</th>
+						<th>Resolver</th>
+					</tr>
+				</thead>
+				<tbody id="reimbody">
+				</tbody>
+
+			</table>
+		</div>
+
+		<br> <br> <br> <br> <br>
+		<h3 class="cl2">Add Reimbursement Ticket</h3>
+		<div class="row1" id="formdiv">
+			<div class="col-4-sm">
+				<label class="label" for="role">Role</label> <input type="text"
+					class="form-control" id="role">
+			</div>
+			<div class="col-4-sm">
+				<label class="label" for="type">Type</label> <input type="text"
+					class="form-control" id="type">
+			</div>
+			<div class="col-4-sm">
+				<label class="label" for="amount">Amount</label> <input
+					type="number" class="form-control" id="amount">
+			</div>
+			<div class="col-4-sm">
+				<label class="label" for="date">Date</label> <input
+					type="datetime-local" class="form-control" id="date">
+			</div>
+			<div class="col-4-sm">
+				<label class="label" for="description">Description</label> <input
+					type="text" class="form-control" id="description">
+			</div>
+			<div class="col-4-sm">
+				<label class="label" for="firstName">First Name</label> <input
+					type="text" class="form-control" id="firstName">
+			</div>
+			<div class="col-4-sm">
+				<label class="label" for="lastName">Last Name</label> <input
+					type="text" class="form-control" id="lastName">
+			</div>
+			<div class="col-4-sm">
+				<label class="label" for="email">Email</label> <input type="email"
+					class="form-control" id="email">
+			</div>
+		</div>
+		<div class="row1" id="formbtn"></div>
+
+
+
+		<button onclick="window.location.href='index.html';">HOME</button>
+
+	</div>
+	<script src="script.js"></script>
+
+	</div>
+	
+	
+</body>
+</html>
